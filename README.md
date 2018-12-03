@@ -36,3 +36,9 @@ def lambda_handler(event, context):
     }
 
 ```
+
+The CloudWatch Log shows the CPU utilization when running Lambda.
+
+```
+{'user': 0.0510204081633397, 'nice': 0.0, 'system': 0.010204081632644737, 'idle': 0.9285714285713672, 'iowait': 0.0, 'irq': 0.0, 'softirq': 0.005102040816322369, 'steal': 0.005102040816325994, 'guest': 0.0, 'guest_nice': 0.0}
+```
