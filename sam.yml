@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: Lambda Layers to measure cpu in Python3 applications.
+
+Resources:
+  CpuTrace:
+    Type: AWS::Serverless::LayerVersion
+    Properties:
+      LayerName: AWSLambda-Pyhon3-TraceUtil
+      Description: Lambda Layers to measure cpu in Python3 applications.
+      ContentUri: workdir
+      CompatibleRuntimes:
+        - python3.6
+        - python3.7
+      RetentionPolicy: Retain
