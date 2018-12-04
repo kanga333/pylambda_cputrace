@@ -6,7 +6,7 @@ Resources:
   CpuTrace:
     Type: AWS::Serverless::LayerVersion
     Properties:
-      LayerName: AWSLambda-Pyhon3-TraceUtil
+      LayerName: AWSLambda-Python3-TraceUtil
       Description: Lambda Layers to measure cpu in Python3 applications.
       ContentUri: workdir
       CompatibleRuntimes:

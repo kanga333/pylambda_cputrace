@@ -17,7 +17,7 @@ It is because some Python module requires build on AmazonLinux.
 
 ### Use with the Lambda function
 
-Add `AWSLambda-Pyhon3-TraceUtil` to Layers of your Lambda function.
+Add `AWSLambda-Python3-TraceUtil` to Layers of your Lambda function.
 Import the package and add the decorator in the lambda function.
 
 ```python3
